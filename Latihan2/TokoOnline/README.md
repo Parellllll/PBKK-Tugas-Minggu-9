@@ -1,7 +1,7 @@
 # Latihan 2b — Aplikasi Toko Online (TokoKita)
 
 - **Identitas**: Farrel Prastita Ramaddhan — NRP `5025241219` (PBKK D, Teknik Informatika ITS)
-- **Port Default**: `http://localhost:8082`
+- **Port Default**: `8082`
 - **Framework**: CodeIgniter `4.7.6` (PHP 8.2+, Bootstrap 5 Storefront + SB Admin 2 Panel Admin)
 
 ---
@@ -89,6 +89,6 @@ php spark db:seed TokoSeeder
 php spark serve --port 8082
 ```
 
-Buka `http://localhost:8082`:
+Akun demo seeder:
 - **Admin Toko**: `admin` / `admin123` (Panel SB Admin 2 di `/admin`)
 - **Customer**: `farrel` / `user123` (Storefront, Keranjang, Checkout & Invoice)

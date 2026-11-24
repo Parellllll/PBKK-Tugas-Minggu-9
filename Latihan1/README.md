@@ -1,7 +1,7 @@
 # Latihan 1 — Aplikasi Biodata Mahasiswa (CodeIgniter 4)
 
 - **Identitas**: Farrel Prastita Ramaddhan — NRP `5025241219` (PBKK D, Teknik Informatika ITS)
-- **Port Default**: `http://localhost:8080`
+- **Port Default**: `8080`
 - **Framework**: CodeIgniter `4.7.6` (PHP 8.2+, Bootstrap 5 + SB Admin 2)
 
 ---
@@ -114,6 +114,6 @@ php spark db:seed DatabaseSeeder
 php spark serve --port 8080
 ```
 
-Buka `http://localhost:8080` di browser:
+Akun demo seeder:
 - **Admin**: `admin` / `admin123` (akses penuh Panel SB Admin 2 & CRUD)
 - **User**: `farrel` / `mhs123` (akses publik & profil, diblokir masuk `/admin`)

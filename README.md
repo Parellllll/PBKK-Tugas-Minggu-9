@@ -157,13 +157,13 @@ Atau jalankan ketiganya sekaligus di Windows melalui PowerShell:
 
 ### 2. Ringkasan Akun Demo
 
-| Aplikasi | URL | Role | Username | Password |
-| :--- | :--- | :--- | :--- | :--- |
-| **Latihan 1 (Biodata)** | `http://localhost:8080` | Admin | `admin` | `admin123` |
-| **Latihan 1 (Biodata)** | `http://localhost:8080` | User | `farrel` | `mhs123` |
-| **Latihan 2a (SIAKAD)** | `http://localhost:8081` | Admin | `admin` | `admin123` |
-| **Latihan 2a (SIAKAD)** | `http://localhost:8081` | Dosen | `dosen1` | `dosen123` |
-| **Latihan 2a (SIAKAD)** | `http://localhost:8081` | Mahasiswa | `farrel` | `mhs123` |
-| **Latihan 2b (TokoKita)** | `http://localhost:8082` | Admin | `admin` | `admin123` |
-| **Latihan 2b (TokoKita)** | `http://localhost:8082` | Customer | `farrel` | `user123` |
+| Aplikasi | Role | Username | Password |
+| :--- | :--- | :--- | :--- |
+| **Latihan 1 (Biodata)** | Admin | `admin` | `admin123` |
+| **Latihan 1 (Biodata)** | User | `farrel` | `mhs123` |
+| **Latihan 2a (SIAKAD)** | Admin | `admin` | `admin123` |
+| **Latihan 2a (SIAKAD)** | Dosen | `dosen1` | `dosen123` |
+| **Latihan 2a (SIAKAD)** | Mahasiswa | `farrel` | `mhs123` |
+| **Latihan 2b (TokoKita)** | Admin | `admin` | `admin123` |
+| **Latihan 2b (TokoKita)** | Customer | `farrel` | `user123` |
 

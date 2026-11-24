@@ -1,7 +1,7 @@
 # Latihan 2a — Sistem Informasi Akademik (SIAKAD)
 
 - **Identitas**: Farrel Prastita Ramaddhan — NRP `5025241219` (PBKK D, Teknik Informatika ITS)
-- **Port Default**: `http://localhost:8081`
+- **Port Default**: `8081`
 - **Framework**: CodeIgniter `4.7.6` (PHP 8.2+, Template SB Admin 2)
 
 ---
@@ -106,7 +106,7 @@ php spark db:seed SiakadSeeder
 php spark serve --port 8081
 ```
 
-Buka `http://localhost:8081`:
+Akun demo seeder:
 - **Admin**: `admin` / `admin123`
 - **Dosen**: `dosen1` / `dosen123` (Dr. Fajar Baskoro, S.Kom., M.T.)
 - **Mahasiswa**: `farrel` / `mhs123` (Farrel Prastita Ramaddhan — `5025241219`)
