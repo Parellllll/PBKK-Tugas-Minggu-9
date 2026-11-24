@@ -50,6 +50,34 @@ erDiagram
 
 ---
 
+## Screenshot Hasil Aplikasi
+
+### 1. Storefront — Katalog Produk, Filter, Sorting & Subquery Terlaris (`/`)
+![Katalog TokoKita](docs/screenshots/01-katalog.png)
+
+### 2. Storefront — Detail Produk (`/produk/mechanical-keyboard-75-hot-swap`)
+![Detail Produk](docs/screenshots/02-detail-produk.png)
+
+### 3. Storefront — Keranjang Belanja (`CartLibrary`, `/keranjang`)
+![Keranjang Belanja](docs/screenshots/03-keranjang.png)
+
+### 4. Storefront — Checkout Transaksi Stok Atomik (`/checkout`)
+![Checkout Pesanan](docs/screenshots/04-checkout.png)
+
+### 5. Storefront — Detail Invoice Pesanan (`/pesanan/INV-20261120-DEMO01`)
+![Invoice Pesanan](docs/screenshots/05-invoice.png)
+
+### 6. Panel Admin — Dashboard Omzet & Peringatan Stok Menipis (`/admin`)
+![Dashboard Admin TokoKita](docs/screenshots/06-admin-dashboard.png)
+
+### 7. Panel Admin — Kelola Produk, Stok & Upload Gambar (`/admin/produk`)
+![Kelola Produk Admin](docs/screenshots/07-admin-produk.png)
+
+### 8. Panel Admin — Manajemen Pesanan & Ubah Status (`/admin/pesanan`)
+![Manajemen Pesanan Admin](docs/screenshots/08-admin-pesanan.png)
+
+---
+
 ## Cara Menjalankan
 
 ```bash

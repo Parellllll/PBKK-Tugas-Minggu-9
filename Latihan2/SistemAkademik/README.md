@@ -67,6 +67,34 @@ erDiagram
 
 ---
 
+## Screenshot Hasil Aplikasi
+
+### 1. Halaman Login Portal 3 Role (`/login`)
+![Login SIAKAD](docs/screenshots/01-login.png)
+
+### 2. Portal Admin — Dashboard & Kelas Semester Aktif (`/admin`)
+![Dashboard Admin SIAKAD](docs/screenshots/02-admin-dashboard.png)
+
+### 3. Portal Admin — Master Kelas & Jadwal (`/admin/master/kelas`)
+![Master Kelas SIAKAD](docs/screenshots/03-admin-master-kelas.png)
+
+### 4. Portal Dosen — Input Nilai & Konversi Otomatis Skala ITS (`/dosen/kelas/4/nilai`)
+![Dosen Input Nilai](docs/screenshots/04-dosen-input-nilai.png)
+
+### 5. Portal Mahasiswa — Dashboard IPK & KRS Aktif (`/mahasiswa`)
+![Dashboard Mahasiswa](docs/screenshots/05-mahasiswa-dashboard.png)
+
+### 6. Portal Mahasiswa — Pengisian KRS (`/mahasiswa/krs`)
+![Pengisian KRS](docs/screenshots/06-mahasiswa-krs.png)
+
+### 7. Portal Mahasiswa — Kartu Hasil Studi / KHS (`/mahasiswa/khs`)
+![Kartu Hasil Studi](docs/screenshots/07-mahasiswa-khs.png)
+
+### 8. Portal Mahasiswa — Transkrip Nilai Kumulatif (`/mahasiswa/transkrip`)
+![Transkrip Nilai Kumulatif](docs/screenshots/08-mahasiswa-transkrip.png)
+
+---
+
 ## Cara Menjalankan
 
 ```bash

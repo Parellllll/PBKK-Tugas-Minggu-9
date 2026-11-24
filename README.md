@@ -73,6 +73,27 @@ TugasMinggu9/
 
 ---
 
+## Preview Hasil Ketiga Aplikasi
+
+### Latihan 1 — Biodata Mahasiswa (`:8080`)
+| Halaman Publik (Bootstrap 5) | Panel Admin (SB Admin 2) |
+| :---: | :---: |
+| ![Beranda Biodata](Latihan1/docs/screenshots/01-beranda.png) | ![Admin Dashboard Biodata](Latihan1/docs/screenshots/05-admin-dashboard.png) |
+
+### Latihan 2a — Sistem Informasi Akademik / SIAKAD (`:8081`)
+| Portal Dosen — Input Nilai Otomatis | Portal Mahasiswa — KHS & IPK |
+| :---: | :---: |
+| ![Dosen Input Nilai](Latihan2/SistemAkademik/docs/screenshots/04-dosen-input-nilai.png) | ![Mahasiswa KHS](Latihan2/SistemAkademik/docs/screenshots/07-mahasiswa-khs.png) |
+
+### Latihan 2b — Toko Online TokoKita (`:8082`)
+| Storefront Katalog Produk | Panel Admin — Dashboard & Stok |
+| :---: | :---: |
+| ![Katalog TokoKita](Latihan2/TokoOnline/docs/screenshots/01-katalog.png) | ![Admin TokoKita](Latihan2/TokoOnline/docs/screenshots/06-admin-dashboard.png) |
+
+> Galeri screenshot lengkap tiap halaman tersedia pada masing-masing laporan: [Latihan 1](Latihan1/README.md), [Latihan 2a SIAKAD](Latihan2/SistemAkademik/README.md), dan [Latihan 2b TokoKita](Latihan2/TokoOnline/README.md).
+
+---
+
 ## Arsitektur Umum MVC CodeIgniter 4
 
 ```mermaid

@@ -81,6 +81,28 @@ erDiagram
 
 ---
 
+## Screenshot Hasil Aplikasi
+
+### 1. Halaman Beranda Publik (Bootstrap 5)
+![Beranda Biodata Mahasiswa](docs/screenshots/01-beranda.png)
+
+### 2. Demo Hello World & Route Placeholder (`/hello/Farrel`)
+![Hello World CI4](docs/screenshots/02-hello-world.png)
+
+### 3. Direktori Biodata Publik (Pencarian, Filter Prodi & Pagination)
+![Direktori Biodata Publik](docs/screenshots/03-biodata-publik.png)
+
+### 4. Detail Biodata Mahasiswa (`/biodata/5025241219`)
+![Detail Biodata Farrel](docs/screenshots/04-biodata-detail.png)
+
+### 5. Panel Admin — Dashboard SB Admin 2 (`/admin`)
+![Dashboard SB Admin 2](docs/screenshots/05-admin-dashboard.png)
+
+### 6. Panel Admin — CRUD Biodata & Upload Foto (`/admin/mahasiswa`)
+![Admin CRUD Biodata Mahasiswa](docs/screenshots/06-admin-mahasiswa.png)
+
+---
+
 ## Cara Menjalankan
 
 ```bash
