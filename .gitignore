@@ -1,0 +1,37 @@
+# Dependencies & local tooling
+tools/
+**/vendor/
+composer.phar
+
+# Environment files (use env / .env.example as template)
+**/.env
+!**/.env.example
+
+# CodeIgniter writable runtime data
+**/writable/cache/*
+!**/writable/cache/index.html
+**/writable/debugbar/*
+!**/writable/debugbar/index.html
+**/writable/logs/*
+!**/writable/logs/index.html
+**/writable/session/*
+!**/writable/session/index.html
+**/writable/uploads/*
+!**/writable/uploads/index.html
+**/writable/*.db
+**/writable/*.sqlite
+**/writable/*.sqlite3
+
+# Uploaded user files (keep placeholders)
+Latihan1/public/uploads/foto/*
+!Latihan1/public/uploads/foto/.gitkeep
+Latihan2/TokoOnline/public/uploads/produk/*
+!Latihan2/TokoOnline/public/uploads/produk/.gitkeep
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+

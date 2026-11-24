@@ -1,0 +1,91 @@
+:root {
+    --tk-primary: #0f766e;
+    --tk-primary-dark: #115e59;
+    --tk-accent: #f59e0b;
+    --tk-bg: #f8fafc;
+}
+
+body.store-body,
+body.sb-admin {
+    background-color: var(--tk-bg);
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.product-thumb {
+    height: 180px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #ccfbf1 0%, #e0f2fe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tk-primary);
+}
+
+#wrapper { display: flex; min-height: 100vh; }
+
+.sidebar {
+    width: 245px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--tk-primary) 10%, var(--tk-primary-dark) 100%);
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.sidebar .sidebar-brand {
+    padding: 1.2rem 1rem;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+.sidebar .sidebar-heading {
+    padding: .8rem 1rem .25rem;
+    font-size: .7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .45);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, .82);
+    padding: .62rem 1rem;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .15);
+    font-weight: 700;
+}
+
+#content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.topbar {
+    height: 64px;
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(15, 23, 42, .08);
+}
+
+.border-left-primary { border-left: .25rem solid #0f766e !important; }
+.border-left-success { border-left: .25rem solid #10b981 !important; }
+.border-left-info    { border-left: .25rem solid #06b6d4 !important; }
+.border-left-warning { border-left: .25rem solid #f59e0b !important; }
+
+@media (max-width: 768px) {
+    #wrapper { flex-direction: column; }
+    .sidebar { width: 100%; min-height: auto; }
+}
+

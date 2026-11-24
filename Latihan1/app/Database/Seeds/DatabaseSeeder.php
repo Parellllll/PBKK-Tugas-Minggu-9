@@ -1,0 +1,191 @@
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
+{
+    public function run(): void
+    {
+        $now = date('Y-m-d H:i:s');
+
+        $users = [
+            [
+                'username'      => 'admin',
+                'nama_lengkap'  => 'Administrator PBKK',
+                'email'         => 'admin@its.ac.id',
+                'password_hash' => password_hash('admin123', PASSWORD_DEFAULT),
+                'role'          => 'admin',
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'username'      => 'farrel',
+                'nama_lengkap'  => 'Farrel Prastita Ramaddhan',
+                'email'         => 'farrel.5025241219@student.its.ac.id',
+                'password_hash' => password_hash('mhs123', PASSWORD_DEFAULT),
+                'role'          => 'user',
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'username'      => 'mahasiswa',
+                'nama_lengkap'  => 'Budi Santoso',
+                'email'         => 'budi@student.its.ac.id',
+                'password_hash' => password_hash('mhs123', PASSWORD_DEFAULT),
+                'role'          => 'user',
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+        ];
+
+        $this->db->table('users')->ignore(true)->insertBatch($users);
+
+        $mahasiswa = [
+            [
+                'nrp'           => '5025241219',
+                'nama'          => 'Farrel Prastita Ramaddhan',
+                'email'         => '5025241219@student.its.ac.id',
+                'prodi'         => 'Teknik Informatika',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'L',
+                'no_hp'         => '081234567890',
+                'alamat'        => 'Keputih, Sukolilo, Surabaya',
+                'ipk'           => 3.85,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025241001',
+                'nama'          => 'Nadia Putri Kusuma',
+                'email'         => '5025241001@student.its.ac.id',
+                'prodi'         => 'Teknik Informatika',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'P',
+                'no_hp'         => '081298761001',
+                'alamat'        => 'Gebang Putih, Sukolilo, Surabaya',
+                'ipk'           => 3.92,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025241014',
+                'nama'          => 'Raka Mahendra Wijaya',
+                'email'         => '5025241014@student.its.ac.id',
+                'prodi'         => 'Teknik Informatika',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'L',
+                'no_hp'         => '081355661014',
+                'alamat'        => 'Mulyosari, Surabaya',
+                'ipk'           => 3.74,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025241028',
+                'nama'          => 'Siti Aisyah Rahmawati',
+                'email'         => '5025241028@student.its.ac.id',
+                'prodi'         => 'Rekayasa Perangkat Lunak',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'P',
+                'no_hp'         => '085612341028',
+                'alamat'        => 'Kertajaya, Gubeng, Surabaya',
+                'ipk'           => 3.88,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025241042',
+                'nama'          => 'Dimas Arya Pratama',
+                'email'         => '5025241042@student.its.ac.id',
+                'prodi'         => 'Rekayasa Kecerdasan Artifisial',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'L',
+                'no_hp'         => '082144551042',
+                'alamat'        => 'Manyar Sabrangan, Surabaya',
+                'ipk'           => 3.69,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025231055',
+                'nama'          => 'Aulia Zahra Permata',
+                'email'         => '5025231055@student.its.ac.id',
+                'prodi'         => 'Teknik Informatika',
+                'angkatan'      => 2023,
+                'jenis_kelamin' => 'P',
+                'no_hp'         => '081933441055',
+                'alamat'        => 'Dharmahusada, Surabaya',
+                'ipk'           => 3.95,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025231072',
+                'nama'          => 'Bagas Kurniawan',
+                'email'         => '5025231072@student.its.ac.id',
+                'prodi'         => 'Sistem Informasi',
+                'angkatan'      => 2023,
+                'jenis_kelamin' => 'L',
+                'no_hp'         => '081277881072',
+                'alamat'        => 'Klampis Ngasem, Surabaya',
+                'ipk'           => 3.61,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025231088',
+                'nama'          => 'Clarissa Evelyn Tan',
+                'email'         => '5025231088@student.its.ac.id',
+                'prodi'         => 'Rekayasa Perangkat Lunak',
+                'angkatan'      => 2023,
+                'jenis_kelamin' => 'P',
+                'no_hp'         => '081566771088',
+                'alamat'        => 'Pakuwon City, Surabaya',
+                'ipk'           => 3.90,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025221102',
+                'nama'          => 'Fajar Nugroho',
+                'email'         => '5025221102@student.its.ac.id',
+                'prodi'         => 'Teknik Informatika',
+                'angkatan'      => 2022,
+                'jenis_kelamin' => 'L',
+                'no_hp'         => '081211221102',
+                'alamat'        => 'Rungkut Asri, Surabaya',
+                'ipk'           => 3.78,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+            [
+                'nrp'           => '5025241115',
+                'nama'          => 'Hana Salsabila',
+                'email'         => '5025241115@student.its.ac.id',
+                'prodi'         => 'Rekayasa Kecerdasan Artifisial',
+                'angkatan'      => 2024,
+                'jenis_kelamin' => 'P',
+                'no_hp'         => '085299001115',
+                'alamat'        => 'Semolowaru, Sukolilo, Surabaya',
+                'ipk'           => 3.81,
+                'foto'          => null,
+                'created_at'    => $now,
+                'updated_at'    => $now,
+            ],
+        ];
+
+        $this->db->table('mahasiswa')->ignore(true)->insertBatch($mahasiswa);
+    }
+}
+

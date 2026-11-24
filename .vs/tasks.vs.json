@@ -1,0 +1,42 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "Jalankan Latihan 1 - Biodata Mahasiswa (Port 8080)",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "php",
+      "args": [
+        "Latihan1/spark",
+        "serve",
+        "--port",
+        "8080"
+      ]
+    },
+    {
+      "taskLabel": "Jalankan Latihan 2a - Sistem Informasi Akademik (Port 8081)",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "php",
+      "args": [
+        "Latihan2/SistemAkademik/spark",
+        "serve",
+        "--port",
+        "8081"
+      ]
+    },
+    {
+      "taskLabel": "Jalankan Latihan 2b - Toko Online (Port 8082)",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "php",
+      "args": [
+        "Latihan2/TokoOnline/spark",
+        "serve",
+        "--port",
+        "8082"
+      ]
+    }
+  ]
+}
+
